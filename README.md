@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# GPA Calculator
 
-## Getting Started
+A Next.js web application for calculating GPA, featuring dark mode, multilingual support, global state management, and utilizing various modern technologies like shadcn/ui, Aceternity UI, Tailwind CSS, and Framer Motion.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Dark Mode**: Seamlessly switch between light and dark themes.
+- **Multilingual Support**: Easily switch between different languages.
+- **Global State Management**: Efficiently manage state across the application.
+- **Modern UI Components**: Utilize shadcn/ui and Aceternity UI for beautiful and responsive components.
+- **Tailwind CSS**: Style your application with utility-first CSS.
+- **Framer Motion**: Add smooth animations and transitions.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: React framework for server-side rendering and static site generation.
+- **shadcn/ui**: UI components with dark mode support.
+- **Aceternity UI**: Beautiful Tailwind CSS and Framer Motion components.
+- **Tailwind CSS**: Utility-first CSS framework.
+- **Framer Motion**: Animation library for React.
+- **next-themes**: Theme management for Next.js applications.
+- **i18next**: Internationalization framework for React.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+1. Clone the repository:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://github.com/Vyzz1/GPA-calculator
+   cd gpa-calculator
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Install dependencies:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   npm install
+   ```
 
-## Deploy on Vercel
+3. Run the development server:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. Open http://localhost:3000 with your browser to see the result.
+
+## Usage
+
+### Dark Mode
+
+Dark mode is implemented using `next-themes`. You can toggle between light and dark modes using the theme switcher component.
+
+### Multilingual Support
+
+Multilingual support is provided by `i18next`. You can switch languages using the language selector component.
+
+### Global State Management
+
+Global state is managed using React Context and Hooks. The state is accessible throughout the application.
+
+### UI Components
+
+The application uses components from `shadcn/ui` and `Aceternity UI` for a modern and responsive design.
+
+### Animations
+
+Animations and transitions are added using `Framer Motion` for a smooth user experience.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License.
