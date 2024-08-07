@@ -1,0 +1,50 @@
+{
+  "navbar": {
+    "StoreIn": "Lưu vào",
+    "gpacalc": "Tính GPA",
+    "average": "Tính Trung Bình",
+    "information": "Thông Tin",
+    "lang": "Chọn Ngôn Ngữ",
+    "en": "Tiếng Anh",
+    "vi": "Tiếng Việt",
+    "tooltip": "Lưu GPA của bạn vào cookies"
+  },
+
+  "hero": {
+    "title": "Tính điểm GPA",
+    "subtitle": "Tích lũy"
+  },
+  "cumulative-column": {
+    "name": "Tên",
+    "gpa": "GPA",
+    "credits": "Tín Chỉ",
+    "actions": "Hành Động"
+  },
+  "cumulative-form": {
+    "title": "Thêm Học Kỳ",
+    "desc": "Thêm để tính GPA của bạn",
+    "name": "Tên",
+    "gpa": "GPA",
+    "credits": "Tín Chỉ",
+    "submit": "Thêm GPA",
+    "edit-gpa": "Chỉnh Sửa GPA",
+    "edit": "Chỉnh Sửa",
+    "add": "Thêm GPA",
+    "gpa-result": "Tổng GPA Là ",
+    "credits-result": "Tổng Số Tín Chỉ  Là "
+  },
+
+  "average": {
+    "title": "Tính điểm trung bình môn",
+    "name": "Tên",
+    "score": "Điểm",
+    "weight": "Trọng Số",
+    "submit": "Tính GPA",
+    "add": "Thêm",
+    "result": "Điểm trung bình môn của bạn là "
+  },
+  "accordition": {
+    "about": "Thông Tin",
+    "TechStackUsed": "Công Nghệ  Sử Dụng"
+  }
+}

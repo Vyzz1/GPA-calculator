@@ -1,0 +1,54 @@
+{
+  "navbar": {
+    "StoreIn": "Store in",
+    "gpacalc": "GPA Calc",
+    "average": "Average Calc",
+    "information": "Information",
+    "lang": "Choose Language",
+    "en": "English",
+    "vi": "Vietnamese",
+    "tooltip": "Store your GPA in cookies"
+  },
+
+  "hero": {
+    "title": "Your Friendly GPA ",
+    "subtitle": "Calculator"
+  },
+  "cumulative-column": {
+    "name": "Name",
+    "gpa": "GPA",
+    "credits": "Credits",
+    "actions": "Actions"
+  },
+  "cumulative-form": {
+    "title": "Add Semester",
+    "desc": "Add more to calculate your gpa",
+    "name": "Name",
+    "gpa": "GPA",
+    "credits": "Credits",
+    "submit": "Submit",
+    "edit-gpa": "Edit GPA",
+    "edit": "Edit",
+    "add": "Add GPA",
+    "gpa-result": "Your Total GPA is ",
+    "credits-result": "Your Total Credits is "
+  },
+
+  "add-button": {
+    "add": "Add more"
+  },
+
+  "average": {
+    "title": "University Grade Calculator",
+    "name": "Name",
+    "score": "Score",
+    "weight": "Weight",
+    "submit": "Calculate",
+    "add": "Add",
+    "result": "Your Average Score is "
+  },
+  "accordition": {
+    "about": "About",
+    "TechStackUsed": "Tech Stack Used"
+  }
+}
