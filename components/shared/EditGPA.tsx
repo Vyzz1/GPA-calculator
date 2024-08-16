@@ -15,6 +15,7 @@ import { CumulativeForm } from "@/types";
 import { Form } from "../ui/form";
 import { useDispatch } from "react-redux";
 import { editSemester } from "@/features/cumulative";
+import { useTranslations } from "next-intl";
 
 const EditGPA = ({ row }: { row: CumulativeForm }) => {
   const form = useForm<CumulativeForm>({
@@ -32,6 +33,7 @@ const EditGPA = ({ row }: { row: CumulativeForm }) => {
     );
     setShowDialog(false);
   };
+  const t = useTranslations("cumulative-form");
 
   return (
     <Dialog open={showDialog} onOpenChange={setShowDialog}>
@@ -40,11 +42,11 @@ const EditGPA = ({ row }: { row: CumulativeForm }) => {
           className="bg-transparent text-slate-800 dark:text-white hover:bg-slate-300 hover:text-white border-sky-300 border"
           size={"sm"}
         >
-          Edit{" "}
+          {t("edit")}
         </Button>
       </DialogTrigger>
       <DialogContent>
-        <DialogHeader>Edit GPA</DialogHeader>
+        <DialogHeader>{t("edit-gpa")}</DialogHeader>
 
         <Form {...form}>
           <form
@@ -54,7 +56,7 @@ const EditGPA = ({ row }: { row: CumulativeForm }) => {
             <RenderFormField
               control={form.control}
               name="name"
-              title="Name"
+              title={t("name")}
               placeholder="Add a alias name"
               type="input"
             />
@@ -69,13 +71,13 @@ const EditGPA = ({ row }: { row: CumulativeForm }) => {
             <RenderFormField
               control={form.control}
               name="credits"
-              title="Credits"
+              title={t("credits")}
               placeholder="Add your Credits"
               type="input"
               inputType="number"
             />
             <DialogFooter>
-              <Button type="submit">Submit</Button>
+              <Button type="submit">{t("edit")}</Button>
             </DialogFooter>
           </form>
         </Form>

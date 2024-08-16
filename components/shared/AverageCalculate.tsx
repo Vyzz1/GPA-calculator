@@ -44,7 +44,7 @@ const AverageCalculate = () => {
       0
     );
 
-    setAverageScore(Math.ceil(totalScore * 100) / 100);
+    setAverageScore(Math.round(totalScore * 10) / 10);
     (ref.current as HTMLElement | null)?.scrollIntoView({ behavior: "smooth" });
   };
 
